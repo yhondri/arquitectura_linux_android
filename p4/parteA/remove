@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for((i=2; i<5; i++)); do
+	echo  "remove $i" > /proc/modlist
+	sleep 1
+done
+
+echo "Números en la lista"
+cat /proc/modlist
+
+exit 0

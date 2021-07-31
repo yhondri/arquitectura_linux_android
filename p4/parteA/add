@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for((i=0; i<10; i++)); do
+	echo  "add $i" > /proc/modlist
+	# sleep 1
+done
+
+echo "Números en la lista"
+cat /proc/modlist
+
+exit 0

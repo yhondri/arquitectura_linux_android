@@ -1,0 +1,4 @@
+1-. Hao Hao He
+2-. Yhondri Josué Acosta Novas
+
+Calculamos la media del uso de las CPUs, leyendo desde /proc/stat y a base a ello, encendemos un determinado numero de leds. El azul significa calmado y amarillo saturado.

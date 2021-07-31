@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#sudo rmmod modlist 
+sudo insmod modlist.ko max_entries=4
+echo create list0 > /proc/list/control
+echo add 1 > /proc/list/list0

@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/arquitectura_linux_android/p4/parteA/modlist.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/arquitectura_linux_android/p4/parteA/modlist.ko /mnt/hgfs/arquitectura_linux_android/p4/parteA/modlist.o /mnt/hgfs/arquitectura_linux_android/p4/parteA/modlist.mod.o ;  true
